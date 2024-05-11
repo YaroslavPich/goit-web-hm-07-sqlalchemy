@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goit-web-hm-07-sqlalchemy"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.30"
+alembic = "^1.13.1"
+psycopg2 = "^2.9.9"
+psycopg2-binary = "^2.9.9"
+faker = "^25.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
